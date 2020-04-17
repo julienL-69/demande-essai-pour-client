@@ -1,0 +1,46 @@
+﻿body {
+}
+
+.contenu,
+.contenu1,
+.contenu2 {
+    color: #fff;
+    font: 100 24px/100px sans-serif;
+    height: 150px;
+    text-align: center;
+}
+
+    .contenu div,
+    .contenu1 div,
+    .contenu2 div {
+        height: 50%;
+        width: 50%;
+    }
+
+.rouge {
+    background: orangered;
+}
+
+.vert {
+    background: yellowgreen;
+}
+
+.bleu {
+    background: steelblue;
+}
+
+/* Styles pour les boîtes flexibles*/
+.contenu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenu1 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.contenu2 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}

@@ -1,0 +1,160 @@
+﻿body {
+       background-color:blanchedalmond;
+}
+
+/* Header */
+header {
+    background-color: aqua;
+    justify-content: center;
+    border: 2px solid black;
+}
+header h1 {
+    font-size: 3em;
+    font-weight: normal;
+}
+#logo img {
+    width: 10%;
+    height: auto;
+    vertical-align: -150%;
+}
+titre_principal {
+    display: flex;
+    justify-content:space-between;
+}
+
+/* bloc demande d'essai */
+
+
+#GdBloc {
+    border: 2px dotted black;
+    height: 450px;
+    width  :1750px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* bloc ddans la demande d'essai    */
+
+
+#lignetest {
+    margin-top: 20px;
+    align-self: center;
+    width: 1400px;
+}
+
+
+.block1 {
+    background-color: lavenderblush;
+    height: 300px;
+    width: 350px;
+    border: 2px solid black;
+    padding: 30px;
+    
+}
+
+/* comportement label dans le bloc1 de la demande essai   */
+#TxbNomClient {
+    margin-left: 50px;
+}
+
+ #TxbMatiere , #TxbVolume, #ListVolume, #ListContexte {
+    margin-left: 50px;
+    margin-top:20px;
+}
+
+#label8, #label9, #label10  {
+    margin-top: 20px;
+
+}
+
+#Panel1 {
+    margin-top: 20px;
+    Height: 100px;
+    width: 342px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+#Label11 {
+    width: 350px;
+
+}
+
+/* comportement label dans le bloc2 de la demande essai   */
+#LblCap {
+    font-size: 1.2em;
+    align-self: center;
+    font-weight: bold;
+    width: 350px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+#EnvoiMail {
+    align-self: center;
+    align-self: flex-start;
+    width: 250px; /* largeur obligatoire pour être centré */
+}
+
+/* Pied de la page */
+footer {
+    display: flex;
+    margin-top:10px;
+}
+
+.custompopup {
+    background-color: #fff;
+    border: 3px solid #fff;
+    left: 50%;
+    padding: 15px;
+    position: fixed;
+    text-align: justify;
+    top: 40%;
+    z-index: 10;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -moz-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.4) inset;
+    -webkit-transition: opacity .5s, top .5s;
+    -moz-transition: opacity .5s, top .5s;
+    -o-transition: opacity .5s, top .5s;
+}
+
+    .custompopup label {
+        display: inline-block;
+        text-align: center;
+        width: 120px;
+    }
+    .custompopup Button2 {
+        display: inline-block;
+        text-align: center;
+        width: 120px;
+    }
+
+/* details legend deuxième grand bloc */
+
+#GdBloc2 {
+   height: 20px;
+    width: 1750px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5px;
+    background-color:slategrey;
+    border: 1px solid #9FC6FF;
+    padding: 5px;
+    /*arrondir les coins en haut à gauche et en bas à droite*/
+    -moz-border-radius: 10px 0;
+    -webkit-border-radius: 10px 0;
+    border-radius: 10px 0;
+}
+  
